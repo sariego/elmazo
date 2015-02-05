@@ -36,7 +36,8 @@
         </ul>
     </div>
     <!--FIN ESTADISTICAS-->
-</div>
+</div><!--FIN SIDEBAR-->
+<div id="wrap">
 <div id="cards_catalogue">
 <div class="section">
         <h1>Cartas<i class="fa fa-cube fa-lg"></i></h1>
@@ -111,38 +112,7 @@
                             <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
                         </span>
                     </span>
-                
-<!--FIN DESCRIPCIÓN-->
-            </li><!--FIN "li"-->
-        </ul>
-        <!--FIN LISTADO COMPLETO DE CARTAS-->
-    </div>
-</div>    
-<div id="deck">
-    <div class="section">
-        <h1>Mazo<i class="fa fa-cube fa-lg"></i></h1>
-    </div>
-    <div id="cards">
-        <ul class="img-list_a">
-            <li>
-                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" />
-                    <span class="text-content_a">
-                        <span>
-                            <i class="fa fa-plus"></i>
-                        </span>
-                        <span>
-                            <i class="fa fa-minus"></i>
-                        </span>
-                        <span>
-                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a>
-                        </span>
-                    </span>
-                    
-            </li>
-        </ul>
-    </div>
-</div>
-<!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                     <div class="modal-content">
@@ -163,3 +133,1241 @@
     </div>
   </div>
 </div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+        </ul>
+        <!--FIN LISTADO COMPLETO DE CARTAS-->
+    </div>
+</div>    
+<div id="deck">
+    <div class="section">
+        <h1>Mazo<i class="fa fa-cube fa-lg"></i></h1>
+    </div>
+    
+    <div id="cards">
+        <!--LISTADO COMPLETO CARTAS MAZO-->
+        <ul class="img-list_a">
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            
+            <li><!--CADA "li" CORRESPONDE A UNA CARTA-->
+                    <div id="cantidad_cartas">1</div><!--CANTIDAD DE CARTAS DE UN MISMO TIPO, MOSTRAR SOLAMENTE CUANDO PUEDE EXISTIR MAS DE UNA COPIA DE LA MISMA CARTA-->
+                
+                    <img src="img/expansionmyl/EF-01-90.jpg" width="100" height="144" /><!--IMAGEN CARTA-->
+                    <span class="text-content_a"><!--ESTE "span" APARECE AL MOMENTO DE PASAR EL MOUSE SOBRE LA CARTA-->
+                        <span>
+                            <a href="#"><i class="fa fa-plus"></i></a><!--ESTE LINK AGREGA LA CARTA SELECCIONADA AL MAZO-->
+                        </span>
+                        <span>
+                            <a href="#"><i class="fa fa-minus"></i></a><!--ESTE LINK RESTA LA CARTA SELECCIONADA DEL MAZO-->
+                        </span>
+                        <span>
+                            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-info"></i></a><!--ESTE LINK NOS LLEVA  A LA DESCRIPCIÓN DE LA CARTA SELECCIONADA-->
+                        </span>
+                    </span>
+                <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
+                        <!--FIN TITULO/NOMBRE-->
+                    </div>
+                    <div class="modal-body">
+                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+                        <img src="img/expansionmyl/EF-01-90.jpg">
+                        <!--FIN IMAGEN AMPLIADA-->
+                        <!--DESCRIPCIÓN DE LA CARTA-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+                        <!--FIN DESCRIPCIÓN CARTA-->
+                    </div>
+    </div>
+  </div>
+</div>
+<!--FIN DESCRIPCIÓN-->
+            </li><!--FIN "li"-->
+            
+        </ul>
+        <!--FIN LISTADO CARTAS MAZO-->
+    </div>
+</div>
+</div>
+
+<?php include_once "footer.php" ?>
