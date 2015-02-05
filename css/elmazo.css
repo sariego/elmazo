@@ -207,6 +207,10 @@ ul.img-list_a {
   list-style-type: none;
   margin: 0;
   padding: 0;
+    max-height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-top: 10px;
 }
  
 ul.img-list_a li {
