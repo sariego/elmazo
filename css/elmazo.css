@@ -1,3 +1,5 @@
+content: "\203A"
+
 body {background-color: #ffffff;
 padding: 0;
 margin: 0;
@@ -56,7 +58,11 @@ margin-bottom: 15px;}
 
 #header {background-color: #363636;
     width: 100%;
-    height: 100%;}
+    height: 100%;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;}
 
 #header, #img {text-align: center;
 width:100%;}
@@ -91,7 +97,11 @@ a:hover {text-decoration: underline;}
 margin-bottom: 10px}
 
 .section {width: 100%;
-    background-color: #363636;}
+    background-color: #363636;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;}
 
 .section h1 {font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -279,6 +289,15 @@ padding: 10px;}
 
 .modal-body p {padding: 5;
 margin-left: 10px;}
+
+#cardModal {	color: #363636;
+			text-align: center;
+			font-family: 'Open Sans', sans-serif;
+			font-style: normal;
+			font-weight: normal;}
+			
+#cardModalImg {width: 260px;}
+#cardModalText {text-align: left;}
 
 #deck {width: 61.5%;
     height: 100%;

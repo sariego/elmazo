@@ -13,6 +13,7 @@
 	try {
 		$dsn = "mysql:host=".DB_HOST.";dbname=".DB_NAME;
 		$db = new PDO($dsn, DB_USER, DB_PASS);
+		$db->exec('SET CHARACTER SET utf8');
 	} catch (PDOException $e) {
 		echo 'Connection Failed: ' . $e->getMessage();
 		exit;

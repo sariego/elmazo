@@ -135,23 +135,25 @@ include_once "header.php";
     </div>
 </div>
 <!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
-                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
-                        <h4 class="modal-title" id="myModalLabel">Nombre Carta</h4>
-                        <!--FIN TITULO/NOMBRE-->
-                    </div>
-                    <div class="modal-body">
-                        <!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
-                        <img src="img/expansionmyl/EF-01-90.jpg">
-                        <!--FIN IMAGEN AMPLIADA-->
-                        <!--DESCRIPCIÓN DE LA CARTA-->
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
-                        <!--FIN DESCRIPCIÓN CARTA-->
-                    </div>
-    </div>
-  </div>
+<div class="modal fade" id="cardModal" tabindex="-1" role="dialog" aria-labelledby="cardModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<!--TITULO/NOMBRE DE LA CARTA SELECCIONADA-->
+				<h4 class="modal-title" id="cardModalLabel">lala</h4>
+				<!--FIN TITULO/NOMBRE-->
+			</div>
+			<div class="modal-body">
+				<!--IMAGEN AMPLIADA CARTA SELECCIONADA--> 
+				<img id="cardModalImg"src="img/expansionmyl/EF-01-90.jpg">
+				<!--FIN IMAGEN AMPLIADA-->
+				<!--DESCRIPCIÓN DE LA CARTA-->
+				<p id="cardModalText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere pulvinar risus nec facilisis. Aenean facilisis risus sit amet sem viverra malesuada. Nulla eu lorem a eros tempor vulputate sit amet ut felis. Morbi dui neque, posuere a sagittis vel, placerat et lacus.</p>
+				<!--FIN DESCRIPCIÓN CARTA-->
+			</div>
+		</div>
+	</div>
 </div>
+
+<script src="js/cardList.js"></script>
