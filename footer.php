@@ -1,4 +1,6 @@
 <?php include_once "header.php"; ?>
-<div id="footer">
-    <p>Hola, somo Elmazo.cl y somos mas bacanes que la chucha.</p>
-</div>
+<footer class="footer">
+      <div class="container">
+        <img src="img/logo_gris.png">
+      </div>
+    </footer>

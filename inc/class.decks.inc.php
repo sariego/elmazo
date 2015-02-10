@@ -59,7 +59,7 @@ class ElMazoDecks
 	<img src="$imgSrc" width="100" height="144" />
 	<span class="text-content_a">
 		<span>
-			<a href="#"><i class="fa fa-plus">
+			<a href="#"><i class="fa fa-plus"></i></a>
 		</span>
 		<span>
 			<a href="#"><i class="fa fa-minus"></i></a>

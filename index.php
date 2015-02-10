@@ -2,6 +2,7 @@
 include_once "common/base.php";
 include_once "header.php"; 
 ?>
+<div id="wrap">
 <div id="sidebar">
     <ul>
         <li><i class="fa fa-user fa-2x"></i><a href="#">Nombre Usuario</a></li>
@@ -155,3 +156,7 @@ include_once "header.php";
     </div>
   </div>
 </div>
+</div>
+
+
+    <?php include_once "footer.php" ?>
