@@ -45,59 +45,71 @@ include_once "common/header.php";
 <div id="cards_catalogue">
 <div class="section">
         <h1>Cartas<i class="fa fa-cube fa-lg"></i></h1>
-    </div>    
-    <!--BUSCADOR DE CARTAS POR NOMBRE O HABILIDAD--->
-    <form id="filter" >
-        <label for="search">Buscar<i class="fa fa-search"></i></label>
-		<input type="text" name="search" id="search_input" placeholder="Buscar por nombre o habilidad..."/>
-    </form>
-    <!--FIN BUSCADOR DE CARTAS-->
-    <div id="cards">
-        <!--FILTRO DE CARTAS POR TIPO-->
-        <ul class="img-list">
-            <li>
-                <!--ESTE LINK FILTRA ALIADOS-->
-                <a href="?type=1">	
-                    <img src="img/aliados.png" width="50" height="65" />
-                    <span class="text-content"><span>Aliados</span></span>
-                </a>
-            <!--FIN FILTRO ALIADOS-->
-            </li>
-            <li>
-            <!--ESTE LINK FILTRA TALISMANES-->
-                <a href="?type=2">
-                    <img src="img/talisman.png" width="50" height="65" />
-                    <span class="text-content"><span>Talismanes</span></span>
-                </a>
-                <!--FIN FILTRO TALISMANES-->
-            </li>
-            <li>
-                <!--ESTE LINK FILTRA ARMAS-->
-                <a href="?type=3">
-                    <img src="img/arma.png" width="50" height="65" />
-                    <span class="text-content"><span>Armas</span></span>
-                </a>
-                <!--FIN FILTRO ARMAS-->
-            </li>
-            <li>
-                <!--ESTE LINK FILTRA TOTEMS-->
-                <a href="?type=4">
-                    <img src="img/totem.png" width="50" height="65" />
-                    <span class="text-content"><span>Totems</span></span>
-                </a>
-                <!--FIN FILTRO TOTEMS-->
-            </li>
-            <li>
-                <!--ESTE LINK FILTRA OROS-->
-                <a href="?type=0">
-                    <img src="img/oro.png" width="50" height="65" />
-                    <span class="text-content"><span>Oros</span></span>
-                </a>
-                <!--FIN FILTRO OROS-->
-            </li>
-        </ul>
-        <!--FIN FILTRO CARTAS POR TIPO-->
     </div>
+    <ul id="all_filters">
+    	<li>
+    		<div id="cards">
+        		<!--FILTRO DE CARTAS POR TIPO-->
+        		<ul class="img-list">
+            		<li>
+                		<!--ESTE LINK FILTRA ALIADOS-->
+                		<a href="?type=1">	
+                    		<img src="img/aliados.png" width="50" height="65" />
+                    		<span class="text-content"><span>Aliados</span></span>
+		                </a>
+        		    <!--FIN FILTRO ALIADOS-->
+		            </li>
+            		<li>
+            		<!--ESTE LINK FILTRA TALISMANES-->
+                		<a href="?type=2">
+                    		<img src="img/talisman.png" width="50" height="65" />
+                    		<span class="text-content"><span>Talismanes</span></span>
+                		</a>
+                		<!--FIN FILTRO TALISMANES-->
+            		</li>
+            		<li>
+                		<!--ESTE LINK FILTRA ARMAS-->
+                		<a href="?type=3">
+                    		<img src="img/arma.png" width="50" height="65" />
+                    		<span class="text-content"><span>Armas</span></span>
+                		</a>
+                		<!--FIN FILTRO ARMAS-->
+            		</li>
+            		<li>
+                		<!--ESTE LINK FILTRA TOTEMS-->
+                		<a href="?type=4">
+                    		<img src="img/totem.png" width="50" height="65" />
+                    		<span class="text-content"><span>Totems</span></span>
+                		</a>
+                		<!--FIN FILTRO TOTEMS-->
+            		</li>
+            		<li>
+                		<!--ESTE LINK FILTRA OROS-->
+                		<a href="?type=0">
+                    		<img src="img/oro.png" width="50" height="65" />
+                    		<span class="text-content"><span>Oros</span></span>
+                		</a>
+                		<!--FIN FILTRO OROS-->
+            		</li>
+        		</ul>
+        		<!--FIN FILTRO CARTAS POR TIPO-->
+    		</div>
+    	</li>
+    	<li>
+    				<!--BUSCADOR DE CARTAS POR NOMBRE O HABILIDAD--->
+    		<form id="filter" >
+        		<label for="search">Buscar<i class="fa fa-search"></i></label>
+				<input type="text" name="search" id="search_input" placeholder="Buscar por nombre o habilidad..."/>
+    		</form>
+    		<!--FIN BUSCADOR DE CARTAS-->
+    	</li>
+    	<li>
+    		<a href="?search="><button>Quitar Filtros</button></a>
+    	</li>
+    </ul>
+    
+    
+    
     
     <div id="cards">
         <!--LISTADO COMPLETO DE CARTAS-->
