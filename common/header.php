@@ -5,13 +5,15 @@
     <title>Elmazo.cl | <?php echo $pageTitle ?> </title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/elmazo.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" type="image/x-icon" href="http://www.elmazo.cl/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="http://www.elmazo.cl/favicon.ico" /> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
     <div id="header">
-        <a href="/"><img src="img/header.png" style='width:100%;' border="0" alt="Null"></a>        
-        
-		<?php
+        <img src="img/header2.png" style='width:100%;' border="0" alt="Null">        
+        <?php
 			if(isset($_SESSION['LoggedIn']) && isset($_SESSION['Username']) && $_SESSION['LoggedIn'] == 1):
 		?>
 		<ul>
@@ -23,5 +25,5 @@
             <li>|</li>
             <li><i class="fa fa-pencil-square-o"></i><a href="signup.php">Regístrate</a></li>
         </ul>        
-        <?php endif; ?>     
+        <?php endif; ?>       
     </div>
