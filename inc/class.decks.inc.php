@@ -53,7 +53,22 @@ class ElMazoDecks
 	  */
 	 public function loadCardList()
 	 {
-	 	$sql = "SELECT * FROM cards";
+		if(isset($_GET['search']))
+		{
+			$qry = $_GET['search'];
+			$sql = "SELECT * FROM cards "
+				."WHERE Name LIKE '%$qry%' "
+				."OR Ability LIKE '%$qry%' ";
+		}
+		elseif(isset($_GET['type']))
+		{
+			$qry = $_GET['type'];
+			$sql = "SELECT * FROM cards WHERE Type='$qry'";
+		}
+		else
+		{
+			$sql = "SELECT * FROM cards";
+		}
 		
 		foreach ($this->_db->query($sql) as $row)
 		{
@@ -74,7 +89,7 @@ class ElMazoDecks
 				."<b>Coste:</b> $cardCost<br/>"
 				."<b>Fuerza:</b> $cardStrength<br/>"
 				."<b>Habilidad:</b><br/>$cardAbility<br/>"
-				."<br/><br/><b>Ilustrador:</b>$cardIllustrator<br/>";
+				."<br/><br/><b>Ilustrador:</b> $cardIllustrator<br/>";
 			
 			$textToEnter = <<<CARTA
 <li>

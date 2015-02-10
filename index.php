@@ -1,10 +1,15 @@
 <?php 
 include_once "common/base.php";
-include_once "header.php"; 
+$pageTitle = '¡Arma tu mazo!';
+include_once "common/header.php"; 
 ?>
+
+<script src="js/cards.js"></script>
+
+
 <div id="sidebar">
     <ul>
-        <li><i class="fa fa-user fa-2x"></i><a href="#">Nombre Usuario</a></li>
+        <li><i class="fa fa-user fa-2x"></i><a href="#"><?php echo $_SESSION['Username']; ?></a></li>
         <li><i class="fa fa-cog fa-2x"></i><a href="#">Opciones</a></li>
     </ul>
     <div class="section">
@@ -12,16 +17,13 @@ include_once "header.php";
     </div>
     <!--LISTA DE MAZOS, MOSTRAR SOLO CUANDO ESTEN CREADAS-->
     <ul>
-        <li><i class="fa fa-cube"></i><a href="#">Mazo 1</a></li>
-        <li><i class="fa fa-cube"></i><a href="#">Mazo 2</a></li>
-        <li><i class="fa fa-cube"></i><a href="#">Mazo 3</a></li>
-        <li><i class="fa fa-cube"></i><a href="#">Mazo 4</a></li>
+        <li><i class="fa fa-cube"></i><a >El Mazo</a></li>
     </ul>
     <!--FIN LISTA DE MAZOS-->
     <!--BOTON PARA AGREGAR MAZOS-->
     <div id="add_deck">
         <ul>
-            <li><i class="fa fa-plus"></i><a href="#">Agregar Mazo</a></li>
+            <li><i class="fa fa-plus"></i><a >Agregar Mazo</a></li>
         </ul>
     </div>
     <!--FIN BOTON PARA AGREGAR MAZOS-->
@@ -31,11 +33,11 @@ include_once "header.php";
     </div>
     <div id="stats">
         <ul>
-            <li><i class="fa fa-male fa-lg fa-fw"></i>Aliados : <!--NUMERO DE ALIADOS EN EL MAZO--></li>
+            <li><i class="fa fa-male fa-lg fa-fw"></i>Aliados: <!--NUMERO DE ALIADOS EN EL MAZO--></li>
             <li><i class="fa fa-diamond fa-lg fa-fw"></i>Talismanes: <!--NUMERO DE TALISMANES EN EL MAZO--></li>
             <li><i class="fa fa-gavel fa-lg fa-fw"></i>Armas: <!--NUMERO DE ARMAS EN EL MAZO--></li>
             <li><i class="fa fa-university fa-lg fa-fw"></i>Totems: <!--NUMERO DE TOTEMS EN EL MAZO--></li>
-            <li><i class="fa fa-circle fa-lg fa-fw"></i>Oros : <!--NUMERO DE OROS EN EL MAZO--></li>
+            <li><i class="fa fa-circle fa-lg fa-fw"></i>Oros: <!--NUMERO DE OROS EN EL MAZO--></li>
         </ul>
     </div>
     <!--FIN ESTADISTICAS-->
@@ -45,18 +47,17 @@ include_once "header.php";
         <h1>Cartas<i class="fa fa-cube fa-lg"></i></h1>
     </div>    
     <!--BUSCADOR DE CARTAS POR NOMBRE O HABILIDAD--->
-    <div id="filter">
-        <label for="text">Buscar<i class="fa fa-search"></i></label>
-        <br />
-        <input type="text" name="search" id="search" placeholder="Buscar por nombre o habilidad..."/>	
-    </div>
+    <form id="filter" >
+        <label for="search">Buscar<i class="fa fa-search"></i></label>
+		<input type="text" name="search" id="search_input" placeholder="Buscar por nombre o habilidad..."/>
+    </form>
     <!--FIN BUSCADOR DE CARTAS-->
     <div id="cards">
         <!--FILTRO DE CARTAS POR TIPO-->
         <ul class="img-list">
             <li>
                 <!--ESTE LINK FILTRA ALIADOS-->
-                <a href="#">
+                <a href="?type=1">	
                     <img src="img/aliados.png" width="50" height="65" />
                     <span class="text-content"><span>Aliados</span></span>
                 </a>
@@ -64,7 +65,7 @@ include_once "header.php";
             </li>
             <li>
             <!--ESTE LINK FILTRA TALISMANES-->
-                <a href="#">
+                <a href="?type=2">
                     <img src="img/talisman.png" width="50" height="65" />
                     <span class="text-content"><span>Talismanes</span></span>
                 </a>
@@ -72,7 +73,7 @@ include_once "header.php";
             </li>
             <li>
                 <!--ESTE LINK FILTRA ARMAS-->
-                <a href="#">
+                <a href="?type=3">
                     <img src="img/arma.png" width="50" height="65" />
                     <span class="text-content"><span>Armas</span></span>
                 </a>
@@ -80,7 +81,7 @@ include_once "header.php";
             </li>
             <li>
                 <!--ESTE LINK FILTRA TOTEMS-->
-                <a href="#">
+                <a href="?type=4">
                     <img src="img/totem.png" width="50" height="65" />
                     <span class="text-content"><span>Totems</span></span>
                 </a>
@@ -88,7 +89,7 @@ include_once "header.php";
             </li>
             <li>
                 <!--ESTE LINK FILTRA OROS-->
-                <a href="#">
+                <a href="?type=0">
                     <img src="img/oro.png" width="50" height="65" />
                     <span class="text-content"><span>Oros</span></span>
                 </a>
@@ -100,7 +101,7 @@ include_once "header.php";
     
     <div id="cards">
         <!--LISTADO COMPLETO DE CARTAS-->
-        <ul class="img-list_a">
+        <ul class="img-list_a" id="cardListBlock">
             <?php
 			include_once "inc/class.decks.inc.php";
 			$cards = new ElMazoDecks($db);
@@ -112,7 +113,7 @@ include_once "header.php";
 </div>    
 <div id="deck">
     <div class="section">
-        <h1>Mazo<i class="fa fa-cube fa-lg"></i></h1>
+        <h1>El Mazo<i class="fa fa-cube fa-lg"></i></h1>
     </div>
     <div id="cards">
         <ul class="img-list_a">
@@ -134,7 +135,7 @@ include_once "header.php";
         </ul>
     </div>
 </div>
-<!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA, NO TOCAR A NO SER DE QUE SEA INDICADO LO CONTRARIO-->
+<!--ACA COMIENZA LA DESCRIPCIÓN DE CADA CARTA-->
 <div class="modal fade" id="cardModal" tabindex="-1" role="dialog" aria-labelledby="cardModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
 		<div class="modal-content">
@@ -156,4 +157,3 @@ include_once "header.php";
 	</div>
 </div>
 
-<script src="js/cardList.js"></script>
